@@ -17,6 +17,16 @@
         "color_scheme": "background-1"
       }
     },
+    "banner-new": {
+      "type": "banner",
+      "settings": {
+        "banner_image": "shopify://shop_images/woman-in-park-afternoon.jpeg",
+        "banner_alt_text": "Banner Image",
+        "banner_height": 500,
+        "banner_heading": "Welcome to Our Store",
+        "banner_subheading": "Best products at the best prices"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -33,11 +43,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "banner-new": {
-      "type": "banner",
-      "settings": {
       }
     }
   },
