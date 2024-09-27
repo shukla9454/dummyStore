@@ -1,6 +1,84 @@
+{% comment %}
+  Reusable Banner Section for Shopify with Alt and Height attributes.
+{% endcomment %}
+
+<div class="banner-section">
+  <div class="banner-section__inner">
+    
+    {%- if section.settings.banner_image != blank -%}
+      <img 
+        src="{{ section.settings.banner_image | image_url: width: 1500 }}" 
+        alt="{{ section.settings.banner_alt_text | escape }}" 
+        class="banner-section__image"
+        width="1500"
+        height="{{ section.settings.banner_height }}"
+      >
+    {%- endif -%}
+    
+    {%- if section.settings.banner_heading != blank -%}
+      <h1 class="banner-section__heading">{{ section.settings.banner_heading }}</h1>
+    {%- endif -%}
+    
+    {%- if section.settings.banner_subheading != blank -%}
+      <p class="banner-section__subheading">{{ section.settings.banner_subheading }}</p>
+    {%- endif -%}
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Banner Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Image",
+      "info": "Upload a banner image"
+    },
+    {
+      "type": "text",
+      "id": "banner_alt_text",
+      "label": "Alt Text for Image",
+      "default": "Banner Image",
+      "info": "Alt text for SEO and accessibility"
+    },
+    {
+      "type": "number",
+      "id": "banner_height",
+      "label": "Banner Image Height (in pixels)",
+      "default": 500,
+      "info": "Height of the banner image in pixels"
+    },
+    {
+      "type": "text",
+      "id": "banner_heading",
+      "label": "Banner Heading",
+      "default": "Welcome to Our Store",
+      "info": "Heading displayed over the banner"
+    },
+    {
+      "type": "text",
+      "id": "banner_subheading",
+      "label": "Banner Subheading",
+      "default": "Best products at the best prices",
+      "info": "Subheading displayed under the banner heading"
+    }
+  ]
+}
 {% endschema %}
+
+{%- stylesheet -%}
+  .banner-section__image {
+    max-width: 100%;
+    height: auto;
+  }
+  .banner-section__heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  .banner-section__subheading {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+{%- endstylesheet -%}
