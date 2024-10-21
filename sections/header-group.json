@@ -51,19 +51,19 @@
         "padding_bottom": 8
       }
     },
-    "172949755613183f32": {
+    "172949834222891146": {
       "type": "apps",
       "blocks": {
-        "banner_page_ban_cT9e3x": {
-          "type": "shopify://apps/banner_page/blocks/ban/f13114ef-711a-4b65-8bc2-a951a0120825",
+        "banner_page_banner_HtdWHY": {
+          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "title": "Hello world",
-            "content": "<p> Describe here your sale_page"
+            "desktop_image": "shopify://shop_images/woman-in-park-afternoon.jpeg",
+            "banner_alt_text": "Banner for collection"
           }
         }
       },
       "block_order": [
-        "banner_page_ban_cT9e3x"
+        "banner_page_banner_HtdWHY"
       ],
       "settings": {
         "include_margins": true
@@ -73,6 +73,6 @@
   "order": [
     "announcement-bar",
     "header",
-    "172949755613183f32"
+    "172949834222891146"
   ]
 }
