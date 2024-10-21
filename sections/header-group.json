@@ -50,30 +50,10 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
-    },
-    "172949834222891146": {
-      "type": "apps",
-      "blocks": {
-        "banner_page_banner_HtdWHY": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "desktop_image": "shopify://shop_images/woman-in-park-afternoon.jpeg",
-            "mobile_image": "shopify://shop_images/model-with-leather-jacket-over-shoulders.jpg",
-            "banner_alt_text": "Banner for collection"
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_banner_HtdWHY"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "172949834222891146"
+    "header"
   ]
 }
