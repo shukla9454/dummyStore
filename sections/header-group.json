@@ -1,1 +1,78 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Welcome to our store","text_alignment":"center","color_scheme":"background-1","link":""}}},"block_order":["announcement-bar-0"],"disabled":true,"settings":{}},"header":{"type":"header","custom_css":[".header__heading-link .h2 {font-size: 16px;}"],"settings":{"logo_position":"middle-center","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"always","show_line_separator":true,"color_scheme":"inverse","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":8,"padding_bottom":8}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".header__heading-link .h2 {font-size: 16px;}"
+      ],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "inverse",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "172949755613183f32": {
+      "type": "apps",
+      "blocks": {
+        "banner_page_ban_cT9e3x": {
+          "type": "shopify://apps/banner_page/blocks/ban/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "title": "Hello world",
+            "content": "<p> Describe here your sale_page"
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_ban_cT9e3x"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "172949755613183f32"
+  ]
+}
