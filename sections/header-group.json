@@ -57,7 +57,7 @@
         "banner_page_banner_k7mG9M": {
           "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "desktop_image": "shopify://shop_images/pexels-jhowfaria-2220316.jpg",
+            "desktop_image": "shopify://shop_images/theme_cover_image.jpg",
             "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
             "banner_alt_text": "Banner for collection"
           }
