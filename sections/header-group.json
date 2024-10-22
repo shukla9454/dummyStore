@@ -62,7 +62,7 @@
             "banner_alt_text": "Banner for collection"
           }
         },
-        "banner_page_countdown_B4aJGm": {
+        "banner_page_countdown_T3eEMg": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
           }
@@ -70,7 +70,7 @@
       },
       "block_order": [
         "banner_page_banner_k7mG9M",
-        "banner_page_countdown_B4aJGm"
+        "banner_page_countdown_T3eEMg"
       ],
       "settings": {
         "include_margins": true
