@@ -50,10 +50,42 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "172957723271cfbf0c": {
+      "type": "apps",
+      "blocks": {
+        "banner_page_banner_k7mG9M": {
+          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "desktop_image": "shopify://shop_images/pexels-jhowfaria-2220316.jpg",
+            "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
+            "banner_alt_text": "Banner for collection"
+          }
+        },
+        "banner_page_countdown_B4aJGm": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+          }
+        },
+        "banner_page_countdown_MyFdxR": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_banner_k7mG9M",
+        "banner_page_countdown_B4aJGm",
+        "banner_page_countdown_MyFdxR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "172957723271cfbf0c"
   ]
 }
