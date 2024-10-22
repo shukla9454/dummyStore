@@ -11,14 +11,16 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "color_scheme": "background-1"
       }
     },
     "banner-new": {
       "type": "banner",
+      "disabled": true,
       "settings": {
         "banner_image": "shopify://shop_images/woman-in-park-afternoon.jpeg",
         "banner_alt_text": "Banner Image",
