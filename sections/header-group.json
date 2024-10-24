@@ -51,27 +51,20 @@
         "padding_bottom": 8
       }
     },
-    "172957723271cfbf0c": {
+    "17297530968f23ff6a": {
       "type": "apps",
       "blocks": {
-        "banner_page_banner_k7mG9M": {
+        "banner_page_banner_Ee6cEP": {
           "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "desktop_image": "shopify://shop_images/theme_cover_image.jpg",
-            "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
+            "desktop_image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
+            "mobile_image": "shopify://shop_images/model-with-leather-jacket-over-shoulders.jpg",
             "banner_alt_text": "Banner for collection"
-          }
-        },
-        "banner_page_countdown_T3eEMg": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "collection": "automated-collection"
           }
         }
       },
       "block_order": [
-        "banner_page_banner_k7mG9M",
-        "banner_page_countdown_T3eEMg"
+        "banner_page_banner_Ee6cEP"
       ],
       "settings": {
         "include_margins": true
@@ -81,6 +74,6 @@
   "order": [
     "announcement-bar",
     "header",
-    "172957723271cfbf0c"
+    "17297530968f23ff6a"
   ]
 }
