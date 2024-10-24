@@ -106,15 +106,14 @@
     "172949913460f2efb4": {
       "type": "apps",
       "blocks": {
-        "banner_page_banner_hQDGBg": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
+        "banner_page_countdown_T8YHyk": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "banner_alt_text": "hiiiiiiiiiiiiiiii"
           }
         }
       },
       "block_order": [
-        "banner_page_banner_hQDGBg"
+        "banner_page_countdown_T8YHyk"
       ],
       "settings": {
         "include_margins": true
