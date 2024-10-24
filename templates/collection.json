@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -19,6 +19,7 @@
     },
     "banner-new": {
       "type": "banner",
+      "disabled": true,
       "settings": {
         "banner_image": "shopify://shop_images/woman-in-park-afternoon.jpeg",
         "banner_alt_text": "Banner Image",
@@ -44,11 +45,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17297534841169113b": {
+      "type": "apps",
+      "blocks": {
+        "banner_page_countdown_7WbYFa": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_countdown_7WbYFa"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "banner",
     "banner-new",
-    "product-grid"
+    "product-grid",
+    "17297534841169113b"
   ]
 }
