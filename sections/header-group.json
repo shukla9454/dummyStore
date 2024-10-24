@@ -65,6 +65,7 @@
         "banner_page_countdown_T3eEMg": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
+            "collection": "automated-collection"
           }
         }
       },
