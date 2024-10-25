@@ -67,23 +67,22 @@
           "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
             "desktop_image": "shopify://shop_images/rack-of-womens-clothing.jpg",
-            "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
-            "banner_alt_text": "Banner for collection"
+            "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg"
           }
         },
-        "banner_page_countdown_KYCrT4": {
+        "banner_page_countdown_JQJ6Ah": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "start_month": 5,
-            "start_day": 18,
-            "start_hours": 12,
-            "start_minute": 36
+            "start_month": 11,
+            "start_day": 31,
+            "start_hours": 19,
+            "start_minute": 30
           }
         }
       },
       "block_order": [
         "banner_page_banner_UqYHRA",
-        "banner_page_countdown_KYCrT4"
+        "banner_page_countdown_JQJ6Ah"
       ],
       "settings": {
         "include_margins": true
