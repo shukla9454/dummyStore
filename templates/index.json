@@ -74,7 +74,7 @@
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
             "start_month": 11,
-            "start_day": 4,
+            "start_day": 28,
             "start_hours": 18,
             "start_minute": 30
           }
