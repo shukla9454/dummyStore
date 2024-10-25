@@ -67,7 +67,6 @@
           "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
             "desktop_image": "shopify://shop_images/model-with-leather-jacket-over-shoulders.jpg",
-            "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
             "banner_alt_text": "Banner for collection"
           }
         }
