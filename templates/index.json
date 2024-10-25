@@ -70,20 +70,20 @@
             "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg"
           }
         },
-        "banner_page_countdown_EiFb9p": {
+        "banner_page_countdown_aJRRFz": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "start_month": 10,
-            "start_day": 30,
+            "start_month": 11,
+            "start_day": 27,
             "start_year": 2024,
-            "start_hours": 12,
-            "start_minute": 39
+            "start_hours": 2,
+            "start_minute": 10
           }
         }
       },
       "block_order": [
         "banner_page_banner_UqYHRA",
-        "banner_page_countdown_EiFb9p"
+        "banner_page_countdown_aJRRFz"
       ],
       "settings": {
         "include_margins": true
