@@ -60,36 +60,6 @@
         "show_text_below": true
       }
     },
-    "172975342811e19519": {
-      "type": "apps",
-      "blocks": {
-        "banner_page_banner_UqYHRA": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "desktop_image": "shopify://shop_images/rack-of-womens-clothing.jpg",
-            "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg"
-          }
-        },
-        "banner_page_countdown_Umdw7c": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 1,
-            "start_month": 11,
-            "start_day": 13,
-            "start_hours": 12,
-            "start_minute": 20,
-            "start_sec": 31
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_banner_UqYHRA",
-        "banner_page_countdown_Umdw7c"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -115,6 +85,28 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "17301117772ce9ef7a": {
+      "type": "apps",
+      "blocks": {
+        "banner_page_countdown_FFcc9c": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "section_num": 1,
+            "start_month": 10,
+            "start_day": 31,
+            "start_hours": 17,
+            "start_minute": 45,
+            "start_sec": 42
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_countdown_FFcc9c"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "f1552b18-6017-4231-810d-74e61da22c37": {
@@ -195,43 +187,14 @@
         "padding_bottom": 36
       }
     },
-    "17301101133bdee78c": {
+    "1730111973b5b62d89": {
       "type": "apps",
       "blocks": {
-        "banner_page_banner_Dr6wHH": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-          }
-        },
-        "banner_page_countdown_MeBqmd": {
+        "banner_page_countdown_VyjJAd": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "section_num": 2,
-            "start_month": 12,
-            "start_day": 26,
-            "start_hours": 16,
-            "start_minute": 1,
-            "start_sec": 1
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_banner_Dr6wHH",
-        "banner_page_countdown_MeBqmd"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "173011174391985a00": {
-      "type": "apps",
-      "blocks": {
-        "banner_page_countdown_kTtxkF": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 3,
-            "start_month": 11,
-            "start_day": 24,
+            "start_month": 1,
+            "start_day": 1,
             "start_hours": 1,
             "start_minute": 1,
             "start_sec": 1
@@ -239,7 +202,7 @@
         }
       },
       "block_order": [
-        "banner_page_countdown_kTtxkF"
+        "banner_page_countdown_VyjJAd"
       ],
       "settings": {
         "include_margins": true
@@ -248,11 +211,10 @@
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
-    "172975342811e19519",
     "featured_collection",
+    "17301117772ce9ef7a",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67",
-    "17301101133bdee78c",
-    "173011174391985a00"
+    "1730111973b5b62d89"
   ]
 }
