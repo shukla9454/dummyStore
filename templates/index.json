@@ -70,20 +70,20 @@
             "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg"
           }
         },
-        "banner_page_countdown_EfQ63y": {
+        "banner_page_countdown_4Kkh7j": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "start_month": 11,
-            "start_day": 7,
-            "start_hours": 11,
-            "start_minute": 14,
-            "start_sec": 25
+            "start_month": 10,
+            "start_day": 29,
+            "start_hours": 23,
+            "start_minute": 23,
+            "start_sec": 34
           }
         }
       },
       "block_order": [
         "banner_page_banner_UqYHRA",
-        "banner_page_countdown_EfQ63y"
+        "banner_page_countdown_4Kkh7j"
       ],
       "settings": {
         "include_margins": true
@@ -193,27 +193,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1729853379d2425666": {
-      "type": "apps",
-      "blocks": {
-        "banner_page_countdown_L78eRY": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "start_month": 11,
-            "start_day": 11,
-            "start_hours": 17,
-            "start_minute": 23,
-            "start_sec": 0
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_countdown_L78eRY"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -221,7 +200,6 @@
     "172975342811e19519",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67",
-    "1729853379d2425666"
+    "38cdf60f-e431-43b5-aac3-7e6215447d67"
   ]
 }
