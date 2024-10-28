@@ -92,9 +92,8 @@
         "banner_page_banner_ciabjB": {
           "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "desktop_image": "shopify://shop_images/pexels-karolina-grabowska-5632381_7dfd7841-cad7-4d4a-b96c-eacd9e564c34.jpg",
-            "mobile_image": "shopify://shop_images/pexels-shvetsa-5619348.jpg",
-            "banner_alt_text": "Banner for collection"
+            "desktop_image": "shopify://shop_images/snowboard_sky.png",
+            "mobile_image": "shopify://shop_images/pexels-shvetsa-5619348.jpg"
           }
         }
       },
@@ -128,6 +127,11 @@
         "banner_page_countdown_T8YHyk": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
+            "start_month": 1,
+            "start_day": 1,
+            "start_hours": 1,
+            "start_minute": 1,
+            "start_sec": 1
           }
         }
       },
