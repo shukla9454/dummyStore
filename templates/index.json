@@ -222,6 +222,28 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "173011174391985a00": {
+      "type": "apps",
+      "blocks": {
+        "banner_page_countdown_kTtxkF": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "section_num": 2,
+            "start_month": 11,
+            "start_day": 24,
+            "start_hours": 1,
+            "start_minute": 1,
+            "start_sec": 1
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_countdown_kTtxkF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -230,6 +252,7 @@
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67",
-    "17301101133bdee78c"
+    "17301101133bdee78c",
+    "173011174391985a00"
   ]
 }
