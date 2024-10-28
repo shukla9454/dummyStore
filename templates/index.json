@@ -181,6 +181,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17301131790efee62a": {
+      "type": "apps",
+      "blocks": {
+        "banner_page_banner_CYCVQP": {
+          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "desktop_image": "shopify://shop_images/snowboard_wax.png"
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_banner_CYCVQP"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -188,6 +205,7 @@
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "38cdf60f-e431-43b5-aac3-7e6215447d67",
+    "17301131790efee62a"
   ]
 }
