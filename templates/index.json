@@ -69,21 +69,10 @@
             "desktop_image": "shopify://shop_images/rack-of-womens-clothing.jpg",
             "mobile_image": "shopify://shop_images/woman-poses-in-dark-room.jpg"
           }
-        },
-        "banner_page_countdown_4Kkh7j": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "start_month": 10,
-            "start_day": 31,
-            "start_hours": 23,
-            "start_minute": 23,
-            "start_sec": 34
-          }
         }
       },
       "block_order": [
-        "banner_page_banner_UqYHRA",
-        "banner_page_countdown_4Kkh7j"
+        "banner_page_banner_UqYHRA"
       ],
       "settings": {
         "include_margins": true
@@ -206,10 +195,21 @@
             "start_minute": 10,
             "start_sec": 1
           }
+        },
+        "banner_page_countdown_VWcdKN": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "start_month": 11,
+            "start_day": 6,
+            "start_hours": 1,
+            "start_minute": 1,
+            "start_sec": 59
+          }
         }
       },
       "block_order": [
-        "banner_page_countdown_hme4Pc"
+        "banner_page_countdown_hme4Pc",
+        "banner_page_countdown_VWcdKN"
       ],
       "settings": {
         "include_margins": true
