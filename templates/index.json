@@ -73,6 +73,7 @@
         "banner_page_countdown_Umdw7c": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
+            "section_num": 1,
             "start_month": 11,
             "start_day": 13,
             "start_hours": 12,
@@ -205,6 +206,7 @@
         "banner_page_countdown_MeBqmd": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
+            "section_num": 2,
             "start_month": 12,
             "start_day": 26,
             "start_hours": 16,
