@@ -11,17 +11,6 @@
   "sections": {
     "17301130714bf3a876": {
       "type": "apps",
-      "blocks": {
-        "banner_page_banner_4yyV9x": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "desktop_image": "shopify://shop_images/wax-special.png"
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_banner_4yyV9x"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -106,22 +95,6 @@
     },
     "1730113265d7519f94": {
       "type": "apps",
-      "blocks": {
-        "banner_page_countdown_QQtUmR": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 2,
-            "start_month": 11,
-            "start_day": 25,
-            "start_hours": 11,
-            "start_minute": 20,
-            "start_sec": 10
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_countdown_QQtUmR"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -206,29 +179,6 @@
     },
     "17301131790efee62a": {
       "type": "apps",
-      "blocks": {
-        "banner_page_banner_CYCVQP": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "desktop_image": "shopify://shop_images/snowboard_wax.png"
-          }
-        },
-        "banner_page_countdown_gW9AAY": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 4,
-            "start_month": 12,
-            "start_day": 1,
-            "start_hours": 1,
-            "start_minute": 1,
-            "start_sec": 1
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_banner_CYCVQP",
-        "banner_page_countdown_gW9AAY"
-      ],
       "settings": {
         "include_margins": true
       }
