@@ -15,17 +15,29 @@
         "banner_page_countdown_3TQLgq": {
           "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
           "settings": {
-            "section_num": 1,
+            "section_num": 3,
             "start_month": 11,
             "start_day": 16,
             "start_hours": 11,
             "start_minute": 1,
             "start_sec": 1
           }
+        },
+        "banner_page_countdown_HENd9W": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "section_num": 1,
+            "start_month": 1,
+            "start_day": 1,
+            "start_hours": 1,
+            "start_minute": 1,
+            "start_sec": 1
+          }
         }
       },
       "block_order": [
-        "banner_page_countdown_3TQLgq"
+        "banner_page_countdown_3TQLgq",
+        "banner_page_countdown_HENd9W"
       ],
       "settings": {
         "include_margins": true
