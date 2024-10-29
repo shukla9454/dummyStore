@@ -11,22 +11,6 @@
   "sections": {
     "17301130714bf3a876": {
       "type": "apps",
-      "blocks": {
-        "banner_page_countdown_EyFJJa": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 1,
-            "start_month": 11,
-            "start_day": 1,
-            "start_hours": 1,
-            "start_minute": 1,
-            "start_sec": 1
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_countdown_EyFJJa"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -111,6 +95,22 @@
     },
     "1730113265d7519f94": {
       "type": "apps",
+      "blocks": {
+        "banner_page_countdown_VzKaih": {
+          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
+          "settings": {
+            "section_num": 1,
+            "start_month": 11,
+            "start_day": 8,
+            "start_hours": 11,
+            "start_minute": 13,
+            "start_sec": 11
+          }
+        }
+      },
+      "block_order": [
+        "banner_page_countdown_VzKaih"
+      ],
       "settings": {
         "include_margins": true
       }
