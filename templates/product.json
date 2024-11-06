@@ -86,19 +86,20 @@
         "padding_bottom": 0
       }
     },
-    "1729753525c5bf05ef": {
+    "173087704651f6b62f": {
       "type": "apps",
       "blocks": {
-        "banner_page_banner_ciabjB": {
-          "type": "shopify://apps/banner_page/blocks/banner/f13114ef-711a-4b65-8bc2-a951a0120825",
+        "we_c_list_wishlist_icon_zJhxcH": {
+          "type": "shopify://apps/we-c-list/blocks/wishlist-icon/c84a7249-75d9-4c0a-81b4-13295a7b5af8",
           "settings": {
-            "desktop_image": "shopify://shop_images/snowboard_sky.png",
-            "mobile_image": "shopify://shop_images/pexels-shvetsa-5619348.jpg"
+            "product": "{{product}}",
+            "text": "Add to wishlist",
+            "colour": "#ff0000"
           }
         }
       },
       "block_order": [
-        "banner_page_banner_ciabjB"
+        "we_c_list_wishlist_icon_zJhxcH"
       ],
       "settings": {
         "include_margins": true
@@ -120,34 +121,11 @@
         "padding_top": 48,
         "padding_bottom": 28
       }
-    },
-    "172949913460f2efb4": {
-      "type": "apps",
-      "blocks": {
-        "banner_page_countdown_T8YHyk": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 6,
-            "start_month": 12,
-            "start_day": 10,
-            "start_hours": 1,
-            "start_minute": 1,
-            "start_sec": 1
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_countdown_T8YHyk"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "1729753525c5bf05ef",
-    "related-products",
-    "172949913460f2efb4"
+    "173087704651f6b62f",
+    "related-products"
   ]
 }
