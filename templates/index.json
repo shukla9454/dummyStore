@@ -77,9 +77,7 @@
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/theme_cover_image.jpg",
         "image_overlay_opacity": 0,
@@ -134,10 +132,18 @@
             "start_minute": 13,
             "start_sec": 11
           }
+        },
+        "slide_cart_star_rating_TchcBp": {
+          "type": "shopify://apps/slide-cart/blocks/star_rating/bbd62291-7066-48b9-9363-81000b2349c8",
+          "settings": {
+            "product": "",
+            "colour": "#00cbba"
+          }
         }
       },
       "block_order": [
-        "banner_page_countdown_VzKaih"
+        "banner_page_countdown_VzKaih",
+        "slide_cart_star_rating_TchcBp"
       ],
       "settings": {
         "include_margins": true
@@ -220,34 +226,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "17301131790efee62a": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1730204432ef8926c2": {
-      "type": "apps",
-      "blocks": {
-        "banner_page_countdown_KneTVG": {
-          "type": "shopify://apps/banner_page/blocks/countdown/f13114ef-711a-4b65-8bc2-a951a0120825",
-          "settings": {
-            "section_num": 2,
-            "start_month": 11,
-            "start_day": 20,
-            "start_hours": 1,
-            "start_minute": 1,
-            "start_sec": 1
-          }
-        }
-      },
-      "block_order": [
-        "banner_page_countdown_KneTVG"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -256,8 +234,6 @@
     "featured_collection",
     "1730113265d7519f94",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67",
-    "17301131790efee62a",
-    "1730204432ef8926c2"
+    "38cdf60f-e431-43b5-aac3-7e6215447d67"
   ]
 }
